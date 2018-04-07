@@ -1,0 +1,44 @@
+@media screen and (main-width:480px){
+}
+.main{
+  border:2px solid #000;
+  display:flex;
+  flex-wrap: wrap;
+
+}
+.left{
+  background-color: #999;
+  border: 2px solid #000;
+  margin: 5px;
+  padding: 5px;
+
+}
+.right{
+  background-color: #8488;
+  border:2px solid #000;
+  margin:5px;
+
+}
+@media screen and(max-width:480px){.main{
+  border:2px solid #000;
+  display:flex;
+  flex-wrap: wrap;
+
+}
+.left{
+  background-color: #99349;
+  border: 2px solid #000;
+  margin: 5px;
+  padding: 5px;
+
+}
+.right{
+  background-color: #8688;
+  border:2px solid #000;
+  margin:5px;
+
+}
+}
+@media screen and (min-width:480px)and (max-width:760px){
+
+}
